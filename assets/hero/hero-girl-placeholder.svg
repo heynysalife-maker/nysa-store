@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 900" role="img" aria-label="Illustrated virtual style muse in a champagne satin slip dress">
+  <!-- Placeholder fashion illustration. Replace with assets/hero/hero-girl.webp (transparent background recommended). -->
+  <defs>
+    <linearGradient id="skin" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#EDC7A9"/><stop offset="1" stop-color="#D6A283"/></linearGradient>
+    <linearGradient id="skinShade" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B9826A" stop-opacity=".55"/><stop offset="1" stop-color="#B9826A" stop-opacity="0"/></linearGradient>
+    <linearGradient id="hair" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3A2620"/><stop offset=".6" stop-color="#261914"/><stop offset="1" stop-color="#1C120E"/></linearGradient>
+    <linearGradient id="hairShine" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8A5E48" stop-opacity="0"/><stop offset=".5" stop-color="#8A5E48" stop-opacity=".55"/><stop offset="1" stop-color="#8A5E48" stop-opacity="0"/></linearGradient>
+    <linearGradient id="satin" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F6E6D0"/><stop offset=".45" stop-color="#DEC29C"/><stop offset=".7" stop-color="#EBD5B4"/><stop offset="1" stop-color="#BF9C70"/></linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F3DDA8"/><stop offset=".5" stop-color="#C39A55"/><stop offset="1" stop-color="#8E6A34"/></linearGradient>
+    <radialGradient id="cheek" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#D98C80" stop-opacity=".45"/><stop offset="1" stop-color="#D98C80" stop-opacity="0"/></radialGradient>
+  </defs>
+  <path fill="url(#hair)" d="M300 62C200 62 150 146 156 250c5 92-26 170-14 270 10 84 66 132 112 142h92c46-10 102-58 112-142 12-100-19-178-14-270C450 146 400 62 300 62Z"/>
+  <path fill="url(#skin)" d="M118 900c2-190 24-330 70-398 30-44 70-64 112-64s82 20 112 64c46 68 68 208 70 398Z"/>
+  <path fill="url(#skin)" d="M266 296h68l8 132c-22 22-62 22-84 0Z"/>
+  <path fill="url(#skinShade)" d="M266 300h68l2 50c-22 18-50 18-72 0Z"/>
+  <path d="M214 470c26 8 50 10 74 2M312 472c24 8 48 6 74-2" fill="none" stroke="#B9826A" stroke-opacity=".35" stroke-width="2" stroke-linecap="round"/>
+  <path d="M258 424c16 44 68 44 84 0" fill="none" stroke="url(#gold)" stroke-width="2"/>
+  <circle cx="300" cy="458" r="6" fill="url(#gold)"/>
+  <path fill="url(#satin)" d="M170 900c6-178 20-292 44-360l20-8c20 70 44 108 66 128 22-20 46-58 66-128l20 8c24 68 38 182 44 360Z"/>
+  <path d="M232 534l2-86M368 534l-2-86" stroke="#D9BF98" stroke-width="4" stroke-linecap="round"/>
+  <path fill="#fff" fill-opacity=".38" d="M246 690c24 64 30 140 22 210h22c6-74-2-148-30-218Z"/>
+  <path fill="#fff" fill-opacity=".22" d="M354 640c18 80 24 170 20 260h14c2-92-8-182-26-262Z"/>
+  <path d="M214 540c28 40 60 76 86 96 26-20 58-56 86-96" fill="none" stroke="#B08D57" stroke-opacity=".35" stroke-width="1.5"/>
+  <g transform="rotate(-4 300 222)">
+    <ellipse cx="300" cy="222" rx="74" ry="98" fill="url(#skin)"/>
+    <ellipse cx="258" cy="252" rx="22" ry="14" fill="url(#cheek)"/>
+    <ellipse cx="342" cy="252" rx="22" ry="14" fill="url(#cheek)"/>
+    <path d="M254 214c10 9 24 9 34 0M314 214c10 9 24 9 34 0" fill="none" stroke="#2A1D18" stroke-width="2.4" stroke-linecap="round"/>
+    <path d="M252 192c12-8 26-8 36-3M314 189c10-5 24-5 36 3" fill="none" stroke="#3A2620" stroke-width="3" stroke-linecap="round"/>
+    <path d="M304 222c6 20 6 30-6 36" fill="none" stroke="#B9826A" stroke-opacity=".6" stroke-width="2" stroke-linecap="round"/>
+    <path fill="#B6706A" d="M282 282c10-7 26-7 38 0-10 14-28 14-38 0Z"/>
+    <path d="M282 282c12 3 26 3 38 0" fill="none" stroke="#8C4E4A" stroke-width="1.2"/>
+  </g>
+  <path fill="url(#hair)" d="M302 90c-70 0-104 56-104 132 0 62 10 112-8 190 40-40 52-104 58-160 8-64 30-106 84-132 34-16 60-8 74 14-10-30-50-46-104-44Z"/>
+  <path fill="url(#hair)" d="M372 140c30 50 30 114 24 180-6 62 6 124 30 186 22-62 24-148 14-226-8-72-30-122-68-140Z"/>
+  <path fill="none" stroke="url(#hairShine)" stroke-width="10" stroke-linecap="round" d="M236 150c30-34 70-46 108-38"/>
+  <g transform="translate(372 262)">
+    <circle r="5" fill="url(#gold)"/>
+    <path d="M-14 26c0-18 28-18 28 0Z" fill="url(#gold)"/>
+    <circle cx="-10" cy="31" r="2.5" fill="#FBF6EF"/><circle cx="0" cy="33" r="2.5" fill="#FBF6EF"/><circle cx="10" cy="31" r="2.5" fill="#FBF6EF"/>
+    <path d="M0 5v8" stroke="url(#gold)" stroke-width="2"/>
+  </g>
+</svg>

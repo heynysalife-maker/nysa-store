@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Shop All Finds | Nysa Life</title>
+<meta name="description" content="Browse fashion, beauty, jewelry, bags, shoes and home finds for India. Filter by budget, search by retailer, and shop straight from Myntra, Nykaa, AJIO and more.">
+<meta name="theme-color" content="#fbf6ef">
+<meta name="color-scheme" content="light">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Nysa Life">
+<meta property="og:title" content="Shop All Finds | Nysa Life">
+<meta property="og:description" content="Browse fashion, beauty, jewelry, bags, shoes and home finds for India. Filter by budget, search by retailer, and shop straight from Myntra, Nykaa, AJIO and more.">
+<meta property="og:image" content="assets/hero/hero-girl.webp">
+<meta property="og:locale" content="en_IN">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://script.google.com">
+<link rel="preconnect" href="https://script.googleusercontent.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..600;1,6..96,400&family=Jost:wght@300..600&display=swap">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/animations.css">
+<link rel="stylesheet" href="css/responsive.css">
+<script src="js/config.js"></script>
+<script>
+/* early boot: JS flag, hero image mode, image fallbacks before other scripts load */
+(function(d){var h=d.documentElement;h.classList.add("js");
+if(window.CONFIG&&CONFIG.HERO_IS_CUTOUT===false)h.classList.add("hero-photo");if(window.CONFIG&&CONFIG.HERO_FOCUS)h.style.setProperty("--hero-focus",CONFIG.HERO_FOCUS);
+d.addEventListener("error",function(e){var i=e.target;if(!i||i.tagName!=="IMG")return;var f=i.getAttribute("data-fallback");
+if(!f||i.getAttribute("data-failed"))return;i.setAttribute("data-failed","1");i.removeAttribute("srcset");
+if(i.hasAttribute("data-hero-img"))h.classList.remove("hero-photo");i.src=f;},true);})(document);
+</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "Nysa Life", "description": "Fashion, beauty & lifestyle finds for India, curated by Indian fashion & lifestyle influencer Nysa.", "inLanguage": "en-IN"}</script>
+</head>
+<body data-page="shop">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="logo" href="index.html" aria-label="Nysa Life home"><span class="logo__mark" aria-hidden="true">A</span><span class="logo__word" data-brand translate="no">Nysa Life</span></a>
+    <nav class="nav" aria-label="Main"><a href="index.html" data-nav="home">Home</a><a href="shop.html" data-nav="shop">Shop</a><a href="shop.html?category=fashion" data-nav="fashion" data-cat="fashion">Fashion</a><a href="shop.html?category=beauty" data-nav="beauty" data-cat="beauty">Beauty</a><a href="shop.html?category=jewelry" data-nav="jewelry" data-cat="jewelry">Jewelry</a><a href="shop.html?category=lifestyle" data-nav="lifestyle" data-cat="lifestyle">Lifestyle</a><a href="look.html" data-nav="look">Looks</a></nav>
+    <div class="hdr-actions">
+      <button class="icon-btn" type="button" data-open-search aria-label="Search finds (press /)"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M20 20l-4.2-4.2"/></svg></button>
+      <a class="icon-btn hdr-saved" href="shop.html?view=saved" aria-label="Saved finds"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20.3s-7.5-4.6-9.3-9.2C1.4 7.7 3.6 4.5 7 4.5c2 0 3.6 1.1 5 3 1.4-1.9 3-3 5-3 3.4 0 5.6 3.2 4.3 6.6-1.8 4.6-9.3 9.2-9.3 9.2z"/></svg><span class="badge-count" data-wish-count hidden></span></a>
+      <span class="india-pill" title="Prices in INR, retailers that ship across India">India <span aria-hidden="true">🇮🇳</span></span>
+    </div>
+  </div>
+</header>
+<main id="main">
+
+<div class="wrap page-head">
+  <p class="kicker">The edit</p>
+  <h1 class="h2" data-shop-title>All finds</h1>
+  <p class="lede" data-shop-sub>Fashion, beauty &amp; lifestyle finds, updated straight from the edit.</p>
+  <p class="status" data-status role="status" hidden></p>
+</div>
+<div class="toolbar">
+  <div class="wrap">
+    <div class="toolbar__row">
+      <form id="shop-q-form" class="field" role="search">
+        <label class="sr-only" for="shop-q">Search finds</label><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M20 20l-4.2-4.2"/></svg>
+        <input id="shop-q" name="q" type="search" placeholder="Search dresses, Nykaa, under 999…" autocomplete="off" enterkeyhint="search" spellcheck="false">
+      </form>
+      <label class="sr-only" for="shop-sort">Sort finds</label>
+      <select class="select" id="shop-sort" name="sort">
+        <option value="curated">Curated order</option><option value="price-asc">Price: low to high</option>
+        <option value="price-desc">Price: high to low</option><option value="discount">Biggest savings</option>
+      </select>
+    </div>
+    <div class="toolbar__row" style="margin-top:.6rem"><div class="chips" data-shop-cats role="group" aria-label="Category"></div></div>
+    <div class="toolbar__row" style="margin-top:.5rem"><div class="chips" data-shop-budget role="group" aria-label="Budget">
+      <button class="chip chip--sm" type="button" data-max="499" aria-pressed="false">Under ₹499</button>
+      <button class="chip chip--sm" type="button" data-max="999" aria-pressed="false">Under ₹999</button>
+      <button class="chip chip--sm" type="button" data-max="1499" aria-pressed="false">Under ₹1,499</button>
+      <button class="chip chip--sm" type="button" data-max="2499" aria-pressed="false">Under ₹2,499</button>
+      <button class="chip chip--sm" type="button" data-max="4999" aria-pressed="false">Under ₹4,999</button>
+    </div></div>
+  </div>
+</div>
+<section class="wrap" aria-label="Results">
+  <div class="results-bar"><p data-shop-count aria-live="polite">Loading finds…</p><button class="link-btn" type="button" data-clear-filters hidden>Clear filters</button></div>
+  <div class="grid" id="shop-grid" aria-busy="true"><div class="card card--skeleton" aria-hidden="true"><div class="card__media sk"></div><div class="card__body"><span class="sk sk--line"></span><span class="sk sk--line sk--w70"></span><span class="sk sk--line sk--w40"></span></div></div><div class="card card--skeleton" aria-hidden="true"><div class="card__media sk"></div><div class="card__body"><span class="sk sk--line"></span><span class="sk sk--line sk--w70"></span><span class="sk sk--line sk--w40"></span></div></div><div class="card card--skeleton" aria-hidden="true"><div class="card__media sk"></div><div class="card__body"><span class="sk sk--line"></span><span class="sk sk--line sk--w70"></span><span class="sk sk--line sk--w40"></span></div></div><div class="card card--skeleton" aria-hidden="true"><div class="card__media sk"></div><div class="card__body"><span class="sk sk--line"></span><span class="sk sk--line sk--w70"></span><span class="sk sk--line sk--w40"></span></div></div><div class="card card--skeleton" aria-hidden="true"><div class="card__media sk"></div><div class="card__body"><span class="sk sk--line"></span><span class="sk sk--line sk--w70"></span><span class="sk sk--line sk--w40"></span></div></div><div class="card card--skeleton" aria-hidden="true"><div class="card__media sk"></div><div class="card__body"><span class="sk sk--line"></span><span class="sk sk--line sk--w70"></span><span class="sk sk--line sk--w40"></span></div></div><div class="card card--skeleton" aria-hidden="true"><div class="card__media sk"></div><div class="card__body"><span class="sk sk--line"></span><span class="sk sk--line sk--w70"></span><span class="sk sk--line sk--w40"></span></div></div><div class="card card--skeleton" aria-hidden="true"><div class="card__media sk"></div><div class="card__body"><span class="sk sk--line"></span><span class="sk sk--line sk--w70"></span><span class="sk sk--line sk--w40"></span></div></div></div>
+  <div style="height:var(--section)"></div>
+</section>
+
+</main>
+<footer class="footer on-dark">
+  <div class="wrap">
+    <p class="footer__big" aria-hidden="true"><span data-brand translate="no">Nysa Life</span></p>
+    <div class="footer__grid">
+      <div>
+        <h2>About</h2>
+        <p style="max-width:34ch"><span data-creator>Nysa</span> is a fashion, beauty &amp; lifestyle influencer from India. Every find links straight to an Indian retailer — you check out with them.</p>
+      </div>
+      <div><h2>Shop</h2><ul>
+        <li><a href="shop.html?category=fashion" data-cat="fashion">Fashion</a></li><li><a href="shop.html?category=beauty" data-cat="beauty">Beauty</a></li>
+        <li><a href="shop.html?category=jewelry" data-cat="jewelry">Jewelry</a></li><li><a href="shop.html?category=bags" data-cat="bags">Bags</a></li>
+        <li><a href="shop.html?category=affordable-finds" data-cat="affordable-finds">Affordable Finds</a></li></ul></div>
+      <div><h2>Looks</h2><ul>
+        <li><a href="look.html?look=date-night">Date Night</a></li><li><a href="look.html?look=office">Office</a></li>
+        <li><a href="look.html?look=festive">Festive</a></li><li><a href="look.html?look=wedding">Wedding</a></li><li><a href="look.html">All looks</a></li></ul></div>
+      <div><h2>Info</h2><ul>
+        <li><a href="about.html">About <span data-creator>Nysa</span></a></li><li><a href="disclosure.html">Affiliate disclosure</a></li>
+        <li><a href="#" data-social="instagram" target="_blank" rel="noopener">Instagram</a></li>
+        <li><a href="#" data-social="youtube" target="_blank" rel="noopener">YouTube</a></li>
+        <li><a href="#" data-social="pinterest" target="_blank" rel="noopener">Pinterest</a></li></ul></div>
+    </div>
+    <div class="footer__legal">
+      <p>Some links on this site are affiliate links. If you buy through them, <span data-brand translate="no">Nysa Life</span> may earn a commission at no extra cost to you. Prices and availability are set by retailers and can change. <a href="disclosure.html">Read the full disclosure</a>.</p>
+      <p>© <span data-year>2026</span> <span data-brand translate="no">Nysa Life</span>. Product images belong to their retailers or brands.</p>
+    </div>
+  </div>
+</footer>
+<nav class="tabbar" aria-label="Quick navigation"><ul><li><a href="index.html" data-nav="home"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10.5L12 4l8 6.5V20h-5.5v-5.5h-5V20H4z"/></svg><span>Home</span></a></li><li><a href="shop.html" data-open-search role="button"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M15.5 8.5l-2 5-5 2 2-5z"/></svg><span>Discover</span></a></li><li><a href="shop.html" data-nav="shop fashion beauty jewelry lifestyle bags shoes home affordable-finds"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14l-1 12H6z"/><path d="M9 8V6.5a3 3 0 016 0V8"/></svg><span>Shop</span></a></li><li><a href="look.html" data-nav="look"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5a2 2 0 112 2c-1 0-2 .7-2 1.8v.7L3.5 15c-1 .7-.5 2 .6 2h15.8c1.1 0 1.6-1.3.6-2L12 9.5"/></svg><span>Looks</span></a></li><li><a href="shop.html?view=saved" data-nav="saved"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20.3s-7.5-4.6-9.3-9.2C1.4 7.7 3.6 4.5 7 4.5c2 0 3.6 1.1 5 3 1.4-1.9 3-3 5-3 3.4 0 5.6 3.2 4.3 6.6-1.8 4.6-9.3 9.2-9.3 9.2z"/></svg><span>Saved</span><span class="badge-count" data-wish-count hidden></span></a></li><li class="tabbar__ink" aria-hidden="true" hidden></li></ul></nav>
+<dialog id="quickview" class="qv" aria-labelledby="qv-title">
+  <div class="qv__handle" aria-hidden="true"></div>
+  <button class="qv__close" type="button" data-close-modal aria-label="Close quick view"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+  <div class="qv__content"></div>
+</dialog>
+<dialog id="search" class="search" aria-label="Search finds">
+  <div class="search__inner">
+    <form id="search-form" class="search__bar" role="search">
+      <label class="sr-only" for="search-input">Search finds</label>
+      <input id="search-input" name="q" type="search" placeholder="Dresses, Myntra, under 999…" autocomplete="off" enterkeyhint="search" spellcheck="false">
+      <button type="button" class="icon-btn" data-close-search aria-label="Close search"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+    </form>
+    <div class="search__meta"><span id="search-count" aria-live="polite"></span><a id="search-all" href="shop.html" hidden>See all</a></div>
+    <div id="search-results"></div>
+  </div>
+</dialog>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<script src="js/analytics.js" defer></script>
+<script src="js/api.js" defer></script>
+<script src="js/wishlist.js" defer></script>
+<script src="js/products.js" defer></script>
+<script src="js/looks.js" defer></script>
+<script src="js/animations.js" defer></script>
+<script src="js/app.js" defer></script>
+</body>
+</html>

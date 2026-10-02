@@ -1,0 +1,8 @@
+id,name,category,subcategory,description,price,originalPrice,image,retailer,goToLink,tags,featured,trending,active,lookId,sortOrder
+dress001,Elegant Satin Dress,Fashion,Dresses,Elegant evening dress for date night,2499,3499,https://example.com/dress.webp,Myntra,https://YOUR-AFFILIATE-LINK,"date-night,party,dress",TRUE,TRUE,TRUE,date-night,1
+bag001,Mini Quilted Shoulder Bag,Bags,Shoulder Bags,Structured mini bag with a gold chain strap,1499,2299,https://drive.google.com/file/d/YOUR_FILE_ID/view,AJIO,https://YOUR-AFFILIATE-LINK,"date-night,party,gold",FALSE,TRUE,TRUE,date-night,2
+earring001,Pearl Drop Earrings,Jewelry,Earrings,Lightweight pearl drops for every day,499,799,assets/products/pearl-drops.webp,Amazon,https://YOUR-AFFILIATE-LINK,"pearl,under 499,gift",TRUE,FALSE,TRUE,"date-night,brunch",3
+heels001,Block Heel Sandals,Shoes,Heels,Comfortable 2-inch block heels,1999,2999,https://example.com/heels.webp,Myntra,https://YOUR-AFFILIATE-LINK,"heels,party",FALSE,FALSE,TRUE,date-night,4
+lip001,Matte Lip Crayon - Rosewood,Beauty,Lips,Long-wear matte finish in a wearable rose,399,599,https://example.com/lip.webp,Nykaa,https://YOUR-AFFILIATE-LINK,"lipstick,under 499,makeup",TRUE,TRUE,TRUE,coffee-date,5
+kurta001,Chanderi Kurta Set,Fashion,Kurta Sets,Soft chanderi set with gota detailing,2899,4299,https://example.com/kurta.webp,Tata CLiQ,https://YOUR-AFFILIATE-LINK,"festive,kurta,wedding",TRUE,FALSE,TRUE,"festive,wedding",6
+old001,Old Product (hidden),Fashion,Tops,This row is hidden because active is FALSE,999,,https://example.com/top.webp,Myntra,https://YOUR-AFFILIATE-LINK,,FALSE,FALSE,FALSE,,99

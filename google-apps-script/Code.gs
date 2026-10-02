@@ -26,7 +26,7 @@
  */
 
 /* ------------------------------- SETTINGS -------------------------------- */
-const SPREADSHEET_ID = "YOUR_SPREADSHEET_ID";   // from the sheet URL: /spreadsheets/d/<THIS PART>/edit
+const SPREADSHEET_ID = "1ge4_u_7Fu40fopET3JyBYCyIXoK1JG20oh5U1O0Nm4A";   // from the sheet URL: /spreadsheets/d/<THIS PART>/edit
 const SHEET_NAME = "Products";
 const LOOKS_SHEET_NAME = "Looks";               // optional second tab
 const CACHE_SECONDS = 300;                      // 60–21600. 300 = 5 minutes

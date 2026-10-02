@@ -7,7 +7,7 @@ const CONFIG = {
   // Find it in Apps Script → Deploy → Manage deployments → Web app URL.
   // (A "script.googleusercontent.com/macros/echo?user_content_key=..." link will NOT work:
   //  it's a temporary redirect that expires.) Until this is set, labelled demo products show.
-  API_URL: "PASTE_YOUR_EXEC_URL_HERE",
+  API_URL: "https://script.google.com/macros/s/AKfycbxkqYVd3Uxo41apzFQJNSYpisysnE0TKBXhQqBuuCM6NjvxxWgnkR4fOV5t_asEf-Ao/exec",
 
   BRAND_NAME: "Hey! Nysa's Life",
 

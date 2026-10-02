@@ -1,3 +1,25 @@
+/* ==========================================================================
+   SITE CONFIGURATION — the only file you need to edit.
+   ========================================================================== */
 const CONFIG = {
-    API_URL: "https://script.googleusercontent.com/macros/echo?user_content_key=AUkAhnRiRnj08cIxQWTSks2RAMAKwHTRQZQapwJt3nJe0L7E9uLBvKNWJ1ZSDTtPiYEBepWMoZf3vhHRLp6KGzEIMdJb7iLdVOMkqZ1JHdUxCwSVZ0pJW_c9NjKpfDt_oszGaRUpROPZXxoRuF9VmRNNLnoHe5zwn1q2YUtELsHFS87yckGMkk2DiRE7kPGXufQSKSXh0X-VuRmBQskstxISe6gAlCpszbmBurK-3lTxlUd58bYHwhjOO4qE3XIQUsA9ExP6QXFSx0yt4a9Ea639QMxgTPSlsw&lib=MTVJd02rh4SCurseTJ_-BapgRYSaeqQVV"
+  // Your Google Apps Script Web App URL — it must END IN /exec, e.g.
+  //   "https://script.google.com/macros/s/AKfycb.../exec"
+  // Find it in Apps Script → Deploy → Manage deployments → Web app URL.
+  // (A "script.googleusercontent.com/macros/echo?user_content_key=..." link will NOT work:
+  //  it's a temporary redirect that expires.) Until this is set, labelled demo products show.
+  API_URL: "PASTE_YOUR_EXEC_URL_HERE",
+
+  BRAND_NAME: "Hey! Nysa's Life",
+
+  INSTAGRAM_URL: "https://www.instagram.com/hey.nysalife/",
+  YOUTUBE_URL: "https://www.youtube.com/@Hey.NysaLife",
+  PINTEREST_URL: "",                             // blank = Pinterest link hidden
+
+  /* ---------- Optional (safe to ignore) ---------- */
+  CREATOR_NAME: "Nysa",                          // the influencer's first name
+  HERO_IMAGE: "assets/hero/hero-girl.webp",      // swap to change the hero photo
+  HERO_IS_CUTOUT: false,                         // true = transparent background PNG/WebP; false = normal photo (framed in an arch)
+  HERO_FOCUS: "74% 32%",                         // which part of the photo stays in frame (x% y%) — her face
+  GA_MEASUREMENT_ID: "",                         // e.g. "G-XXXXXXX" — blank disables analytics
+  CACHE_MINUTES: 10                              // how long the browser trusts saved products
 };
